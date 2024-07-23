@@ -17,5 +17,28 @@ test_script:
 cache:
   - 'packages -> **\src\ui\packages.config'
 
-matrix:
-  fast_finish: true
+# matrix:
+#   fast_finish: true
+
+# version: "{build}"
+
+# image: Visual Studio 2022
+
+# platform:
+#   - Any CPU
+
+# configuration:
+#   - Release
+
+# build_script:
+#   - msbuild "SubtitleEdit.sln" /r /v:minimal /clp:summary /p:"Platform=%PLATFORM%" /p:"Configuration=%CONFIGURATION%" /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+
+# test_script:
+#   - vstest.console "src\Test\bin\%CONFIGURATION%\Test.dll" /logger:Appveyor
+
+# cache:
+#   - 'packages -> **\src\ui\packages.config'
+
+# matrix:
+#   fast_finish: true
+
